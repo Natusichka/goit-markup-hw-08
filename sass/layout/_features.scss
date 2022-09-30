@@ -1,0 +1,39 @@
+.features__list {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.features__card {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+.features__icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--additional-background-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.features__title {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.features__title,
+.our-work__title {
+  line-height: 1.14;
+}
+.features__text,
+.team__text,
+.portfolio__text {
+  color: var(--primary-text-color);
+  line-height: 1.7;
+}
