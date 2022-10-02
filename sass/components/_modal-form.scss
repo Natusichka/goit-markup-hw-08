@@ -32,6 +32,21 @@
 .modal-form__info-field {
   margin-bottom: 20px;
 }
+.modal-form__check-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 .modal-form__field-info {
   display: block;
   margin-bottom: 4px;
@@ -84,12 +99,6 @@
   appearance: none;
   position: absolute;
   transition: border-color var(--transition-dur-and-func);
-}
-.modal-form__check-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
 }
 .modal-form__own-checkbox {
   width: 16px;
