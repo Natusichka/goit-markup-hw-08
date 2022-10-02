@@ -51,7 +51,7 @@
   }
   .mobile-menu-contacts-list__link_tel {
     font-weight: 500;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.176;
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -73,6 +73,9 @@
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
+    color: var(--accent-color);
+  }
+  .mobile-menu-list__link.current{
     color: var(--accent-color);
   }
   .mobile-menu-links-list__item {
