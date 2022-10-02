@@ -1,6 +1,17 @@
+@media screen and (max-width: 1199px) {
+  .our-work {
+    display: none;
+  }
+}
 .our-work {
   padding-top: 0;
 }
+
+.our-work__details {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
 .our-work__list {
   display: flex;
   flex-direction: row;
